@@ -2,7 +2,7 @@
 
 int main() {
     int populacao, codcidade, numptstur;
-    char nome[20], codpais[5];
+    char codpais[5];
     float area, pib;
     
     printf("Código do país:\n");
@@ -20,7 +20,7 @@ int main() {
     
     printf("\nCidade: %s%d\n", codpais,codcidade);
     printf("População: %d ", populacao);
-    printf("pessoas\n");
+    printf("habitantes\n");
     printf("Área: %f ", area);
     printf("km²\n");
     printf("PIB: R$ %f \n", pib);
